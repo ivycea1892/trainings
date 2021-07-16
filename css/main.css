@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;600;700&family=Zen+Tokyo+Zoo&display=swap');
+
+html, body, h1, h2,
+h3, h4, h5, h6, p, ol, ul, li , a {
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    color: #222222;
+}
+
+h1, h2,
+h3, h4, h5, h6 {
+    color: #0F1465;
+}
+
+a {
+    color: #9C6CFA;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+p {
+    line-height: 27px;
+    margin: 20px 0;
+}
+
+ul, ol {
+    padding-left: 40px;
+}
+
+ul li, ol li {
+    margin: 10px 0;
+    line-height: 27px;
+}
+
+blockquote {
+    padding: 30px 30px 30px 75px;
+    border-left: 8px solid #9C6CFA;
+    background: #f3f8fd;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-weight: 400;
+    line-height: 30px;
+    font-size: 18px;
+}
+
+blockquote span {
+    display: block;
+    margin-top: 12px;
+}
+
+.center-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container {
+    max-width: 1024px;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.col-50 {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+    width: 100%;
+}
+
+.header {
+    padding: 20px 0;
+}
+
+.header .logo-name {
+    font-family: 'Zen Tokyo Zoo', cursive;
+    font-size: 30px;
+    color: #0F1465;
+}
+
+.header ul {
+    list-style: none;
+    text-align: right;
+    font-weight: 300;
+    padding: 20px 0;
+}
+
+.header ul li {
+    display: inline;
+    font-size: 16px;
+}
+
+.header ul li:first-child {
+    padding-right: 15px;
+}
+
+.header ul li a {
+    color: #222222;
+}
+
+.header ul li a:hover {
+    color: #9C6CFA;
+}
+
+.main-article {
+    padding-bottom: 70px;
+}
+
+.main-article .heading {
+    background: #F3F8FD; 
+    background: -webkit-linear-gradient(to bottom, #F3F8FD, #FFFFFF);  
+    background: linear-gradient(to bottom, #F3F8FD, #FFFFFF);
+    padding: 50px 0 30px;
+}
+
+.main-article .heading h1 {
+    font-size: 42px;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.main-article .heading .author {
+    color: #776b8e;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+.main-article .heading .tags {
+    color: #776b8e;
+    font-size: 12px;
+    margin-top: 0;
+    text-align: center;
+}
+
+.main-article .heading h2 {
+    font-weight: 600;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+.main-article .featured-img {
+    margin-bottom: 25px;
+}
+
+.main-article .featured-img img {
+    width: 100%;
+}
+
+.main-article .content h2 {
+    font-weight: 600;
+    font-size: 30px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.main-article .content h3 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.main-article .content img {
+    float: left;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+.footer {
+    border: 1px solid #eeeeee;
+}
+
+.footer p {
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+}
